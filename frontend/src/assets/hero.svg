@@ -1,0 +1,54 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <!-- Solid hunter green background -->
+  <rect width="1200" height="280" fill="#355E3B" />
+
+  <!-- Simple hill shapes for depth -->
+  <g fill="#2E7D32" opacity="0.9">
+    <ellipse cx="240" cy="240" rx="240" ry="36" />
+    <ellipse cx="720" cy="252" rx="440" ry="36" opacity="0.85"/>
+  </g>
+
+  <!-- Trees (left cluster and right cluster) -->
+  <g transform="translate(80,70)">
+    <rect x="28" y="120" width="14" height="28" fill="#5d3a1a" />
+    <path d="M5 120 L42 60 L79 120 Z" fill="#1b5e20" />
+    <path d="M12 100 L42 48 L72 100 Z" fill="#2e7d32" opacity="0.9"/>
+    <path d="M18 80 L42 30 L66 80 Z" fill="#3c8c3a" opacity="0.95"/>
+  </g>
+
+  <g transform="translate(980,70)">
+    <rect x="28" y="120" width="14" height="28" fill="#5d3a1a" />
+    <path d="M5 120 L42 60 L79 120 Z" fill="#1b5e20" />
+    <path d="M12 100 L42 48 L72 100 Z" fill="#2e7d32" opacity="0.9"/>
+    <path d="M18 80 L42 30 L66 80 Z" fill="#3c8c3a" opacity="0.95"/>
+  </g>
+
+  <!-- Fencing: posts and rails across the bottom -->
+  <g fill="#6E4A2C" opacity="0.95">
+    <!-- posts -->
+    <rect x="60" y="210" width="8" height="28" rx="1" />
+    <rect x="160" y="210" width="8" height="28" rx="1" />
+    <rect x="260" y="210" width="8" height="28" rx="1" />
+    <rect x="360" y="210" width="8" height="28" rx="1" />
+    <rect x="460" y="210" width="8" height="28" rx="1" />
+    <rect x="560" y="210" width="8" height="28" rx="1" />
+    <rect x="660" y="210" width="8" height="28" rx="1" />
+    <rect x="760" y="210" width="8" height="28" rx="1" />
+    <rect x="860" y="210" width="8" height="28" rx="1" />
+    <rect x="960" y="210" width="8" height="28" rx="1" />
+    <rect x="1060" y="210" width="8" height="28" rx="1" />
+    <rect x="1160" y="210" width="8" height="28" rx="1" />
+    <!-- rails -->
+    <rect x="40" y="220" width="1180" height="6" rx="3" />
+    <rect x="40" y="235" width="1180" height="6" rx="3" opacity="0.9"/>
+  </g>
+
+  <!-- Subtle animal track or terrain highlight (top-left) -->
+  <g fill="#214b2d" opacity="0.12">
+    <ellipse cx="140" cy="80" rx="60" ry="6" />
+    <ellipse cx="220" cy="88" rx="24" ry="4" />
+  </g>
+
+  <!-- Title removed as requested; kept SVG layout otherwise -->
+  <!-- Subtitle removed as requested -->
+</svg>

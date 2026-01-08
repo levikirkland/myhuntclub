@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="House logo">
+  <!-- Simple white house silhouette for header -->
+  <g fill="none" stroke="none">
+    <rect width="64" height="64" fill="none" />
+    <path d="M8 30 L32 10 L56 30 L56 52 H40 V36 H24 V52 H8 Z" fill="#ffffff" />
+    <rect x="28" y="36" width="8" height="12" rx="1" fill="#ffffff" />
+    <rect x="16" y="32" width="8" height="8" rx="1" fill="#ffffff" />
+  </g>
+</svg>
